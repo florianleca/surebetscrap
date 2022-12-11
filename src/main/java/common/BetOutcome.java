@@ -1,13 +1,15 @@
-package scrapping;
+package common;
+
+import winamax.WinamaxMatch;
 
 public class BetOutcome {
 	private String id;
-	private Match match;
+	private WinamaxMatch match;
 	private Bet bet;
 	private String label;
 	private double odd;
 	
-	public BetOutcome(String id, Match match, Bet bet) {
+	public BetOutcome(String id, WinamaxMatch match, Bet bet) {
 		super();
 		this.id = id;
 		this.match = match;

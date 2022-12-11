@@ -1,4 +1,4 @@
-package scrapping;
+package winamax;
 
 public enum WinamaxWebPages {
 	WIN_FOOT_DE_1("https://www.winamax.fr/paris-sportifs/sports/1/30/42", "42"),

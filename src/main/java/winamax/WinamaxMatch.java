@@ -1,6 +1,6 @@
-package scrapping;
+package winamax;
 
-public class Match {
+public class WinamaxMatch {
 	private String title;
 	private String equipeHome;
 	private String equipeAway;

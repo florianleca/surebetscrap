@@ -1,4 +1,4 @@
-package scrapping;
+package common;
 
 public class GlobalScrapTools {
 

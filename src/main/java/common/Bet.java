@@ -1,14 +1,16 @@
-package scrapping;
+package common;
 
 import java.util.List;
 
+import winamax.WinamaxMatch;
+
 public class Bet implements Comparable<Bet> {
 	private String id;
-	private Match match;
+	private WinamaxMatch match;
 	private int indexInData;
 	private List<BetOutcome> outcomes;
 
-	public Bet(Match match, int indexInData) {
+	public Bet(WinamaxMatch match, int indexInData) {
 		this.id = match.getMainBetId();
 		this.match = match;
 		this.indexInData = indexInData;
@@ -30,11 +32,11 @@ public class Bet implements Comparable<Bet> {
 		this.id = id;
 	}
 
-	public Match getMatch() {
+	public WinamaxMatch getMatch() {
 		return match;
 	}
 
-	public void setMatch(Match match) {
+	public void setMatch(WinamaxMatch match) {
 		this.match = match;
 	}
 

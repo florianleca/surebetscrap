@@ -1,4 +1,4 @@
-package scrapping;
+package winamax;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,9 +8,13 @@ import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import common.Bet;
+import common.BetOutcome;
+import common.GlobalScrapTools;
+
 public class WinamaxScrapTools {
 
-	public void fillMatchProperties(String data, Match match) {
+	public void fillMatchProperties(String data, WinamaxMatch match) {
 		match.setTitle(GlobalScrapTools.getPropertyValue(data, "title", ",", true, true));
 		match.setEquipeHome(GlobalScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
 		match.setEquipeAway(GlobalScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
@@ -19,12 +23,12 @@ public class WinamaxScrapTools {
 	}
 
 	// web page -> list of matches
-	public List<Match> pageToMatches(String data, String tournamentNumber) {
-		List<Match> matches = new ArrayList<>();
+	public List<WinamaxMatch> pageToMatches(String data, String tournamentNumber) {
+		List<WinamaxMatch> matches = new ArrayList<>();
 		data = data.substring(data.indexOf("matches\":{"));
 		while (data.contains("matchId")) {
 			int index = data.indexOf("matchId");
-			Match match = new Match();
+			WinamaxMatch match = new WinamaxMatch();
 			fillMatchProperties(data, match);
 			if (match.getTournamentId().equals(tournamentNumber)) {
 				matches.add(match);
@@ -35,10 +39,10 @@ public class WinamaxScrapTools {
 	}
 
 	// list of matches -> list of bets
-	public List<Bet> matchesToBets(String data, List<Match> matches) {
+	public List<Bet> matchesToBets(String data, List<WinamaxMatch> matches) {
 		data = data.substring(data.indexOf("\"bets\":{"));
 		List<Bet> bets = new ArrayList<>();
-		for (Match match : matches) {
+		for (WinamaxMatch match : matches) {
 			bets.add(new Bet(match, data.indexOf(match.getMainBetId())));
 		}
 		Collections.sort(bets);
@@ -73,7 +77,7 @@ public class WinamaxScrapTools {
 	public void winamaxAllInOne(WinamaxWebPages page) throws IOException {
 		Document doc = Jsoup.connect(page.getUrl()).get();
 		String data = doc.data();
-		List<Match> matches = pageToMatches(data, page.getTournamentId());
+		List<WinamaxMatch> matches = pageToMatches(data, page.getTournamentId());
 		List<Bet> bets = matchesToBets(data, matches);
 		bets.forEach(b -> System.out.println(b));
 	}

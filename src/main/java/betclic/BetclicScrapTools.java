@@ -1,4 +1,4 @@
-package scrapping;
+package betclic;
 
 import java.util.ArrayList;
 import java.util.Arrays;

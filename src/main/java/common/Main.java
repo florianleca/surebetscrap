@@ -1,10 +1,15 @@
-package scrapping;
+package common;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+
+import betclic.BetclicMatch;
+import betclic.BetclicScrapTools;
+import winamax.WinamaxScrapTools;
+import winamax.WinamaxWebPages;
 
 public class Main {
 

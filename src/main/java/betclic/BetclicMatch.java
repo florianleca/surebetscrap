@@ -1,4 +1,6 @@
-package scrapping;
+package betclic;
+
+import common.GlobalScrapTools;
 
 public class BetclicMatch {
 	private String name;
