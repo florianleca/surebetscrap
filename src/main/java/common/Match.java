@@ -7,13 +7,13 @@ public abstract class Match {
 	private String title;
 	private List<String> homeTeamNames;
 	private List<String> awayTeamNames;
-	private List<Bet> bets;
-	
+	private double[] mainBetOdds;
+
 	// constructor
-	public Match() {
+	protected Match() {
 		homeTeamNames = new ArrayList<>();
 		awayTeamNames = new ArrayList<>();
-		bets = new ArrayList<>();
+		mainBetOdds = new double[3];
 	}
 	
 	// title getter and setter
@@ -46,14 +46,39 @@ public abstract class Match {
 		awayTeamNames.add(name);
 	}
 
-	// bets getters and adder
-	public List<Bet> getBets() {
-		return bets;
+	// main bet odds getter and setter
+	
+	public double getMainBetOdd(char outcome) {
+		double odd = 0;
+		switch (outcome) {
+		case '1':
+			odd = mainBetOdds[0];
+			break;
+		case 'N':
+			odd = mainBetOdds[1];
+			break;
+		case '2':
+			odd = mainBetOdds[2];
+			break;
+		default:
+			break;
+		}
+		return odd;
 	}
-	public Bet getBet(int index) {
-		return bets.get(index);
-	}
-	public void addBet(Bet bet) {
-		bets.add(bet);
+	
+	public void setMainBetOdd(char outcome, double odd) {
+		switch (outcome) {
+		case '1':
+			mainBetOdds[0] = odd;
+			break;
+		case 'N':
+			mainBetOdds[1] = odd;
+			break;
+		case '2':
+			mainBetOdds[2] = odd;
+			break;
+		default:
+			throw new IllegalArgumentException("Only '1', 'N' or '2' are valid outcomes.");
+		}
 	}	
 }

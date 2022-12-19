@@ -16,8 +16,8 @@ public class WinamaxScrapTools {
 
 	public void fillMatchProperties(String data, WinamaxMatch match) {
 		match.setTitle(ScrapTools.getPropertyValue(data, "title", ",", true, true));
-		match.setEquipeHome(ScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
-		match.setEquipeAway(ScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
+		match.addHomeTeamName(ScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
+		match.addAwayTeamName(ScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
 		match.setMainBetId(ScrapTools.getPropertyValue(data, "mainBetId", ",", true, true));
 		match.setTournamentId(ScrapTools.getPropertyValue(data, "tournamentId", ",", true, true));
 	}
