@@ -1,6 +1,6 @@
 package common;
 
-public class GlobalScrapTools {
+public class ScrapTools {
 
 	public static String getPropertyValue(String data, String propertyName, String separator) {
 		int index = data.indexOf(propertyName);
@@ -13,8 +13,6 @@ public class GlobalScrapTools {
 			propertyName = "\"" + propertyName + "\"";
 		if (addColon)
 			propertyName += ":";
-		int index = data.indexOf(propertyName);
-		int indexSeparator = data.indexOf(separator, (index+propertyName.length()));
-		return data.substring(index + propertyName.length(), indexSeparator);
+		return getPropertyValue(data, propertyName, separator);
 	}
 }

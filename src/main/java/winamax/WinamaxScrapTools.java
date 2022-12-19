@@ -10,16 +10,16 @@ import org.jsoup.nodes.Document;
 
 import common.Bet;
 import common.BetOutcome;
-import common.GlobalScrapTools;
+import common.ScrapTools;
 
 public class WinamaxScrapTools {
 
 	public void fillMatchProperties(String data, WinamaxMatch match) {
-		match.setTitle(GlobalScrapTools.getPropertyValue(data, "title", ",", true, true));
-		match.setEquipeHome(GlobalScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
-		match.setEquipeAway(GlobalScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
-		match.setMainBetId(GlobalScrapTools.getPropertyValue(data, "mainBetId", ",", true, true));
-		match.setTournamentId(GlobalScrapTools.getPropertyValue(data, "tournamentId", ",", true, true));
+		match.setTitle(ScrapTools.getPropertyValue(data, "title", ",", true, true));
+		match.setEquipeHome(ScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
+		match.setEquipeAway(ScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
+		match.setMainBetId(ScrapTools.getPropertyValue(data, "mainBetId", ",", true, true));
+		match.setTournamentId(ScrapTools.getPropertyValue(data, "tournamentId", ",", true, true));
 	}
 
 	// web page -> list of matches
@@ -48,7 +48,7 @@ public class WinamaxScrapTools {
 		Collections.sort(bets);
 		for (Bet bet : bets) {
 			data = data.substring(data.indexOf(bet.getId()));
-			String rawStringOutcomes = (GlobalScrapTools.getPropertyValue(data, "outcomes", "]", true, true));
+			String rawStringOutcomes = (ScrapTools.getPropertyValue(data, "outcomes", "]", true, true));
 			String[] stringOutcomes = rawStringOutcomes.substring(1).split(",");
 			List<BetOutcome> outcomes = new ArrayList<>();
 			for (String outcome : stringOutcomes) {
@@ -65,9 +65,9 @@ public class WinamaxScrapTools {
 		for (Bet bet : bets) {
 			for (BetOutcome outcome : bet.getOutcomes()) {
 				String subdata = data.substring(data.indexOf(outcome.getId()));
-				outcome.setLabel(GlobalScrapTools.getPropertyValue(subdata, "label", ",", true, true));
+				outcome.setLabel(ScrapTools.getPropertyValue(subdata, "label", ",", true, true));
 				// TODO: label can also be used as the team's "short_name" on Winamax.
-				String odd = GlobalScrapTools.getPropertyValue(subdata, outcome.getId(), ",", true, true);
+				String odd = ScrapTools.getPropertyValue(subdata, outcome.getId(), ",", true, true);
 				odd = odd.replace("}", "");
 				outcome.setOdd(Double.parseDouble(odd));
 			}

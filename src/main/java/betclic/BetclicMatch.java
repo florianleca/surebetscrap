@@ -1,6 +1,6 @@
 package betclic;
 
-import common.GlobalScrapTools;
+import common.ScrapTools;
 
 public class BetclicMatch {
 	private String name;
@@ -25,7 +25,7 @@ public class BetclicMatch {
 	}
 
 	public String setContestant1Name(String data) {
-		String value = GlobalScrapTools.getPropertyValue(data, "name", ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, "name", ",", false, true);
 		contestant1Name = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -35,7 +35,7 @@ public class BetclicMatch {
 	}
 
 	public String setContestant1ShortName(String data) {
-		String value = GlobalScrapTools.getPropertyValue(data, "short_name", ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, "short_name", ",", false, true);
 		contestant1ShortName = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -45,7 +45,7 @@ public class BetclicMatch {
 	}
 
 	public String setContestant2Name(String data) {
-		String value = GlobalScrapTools.getPropertyValue(data, "name", ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, "name", ",", false, true);
 		contestant2Name = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -55,7 +55,7 @@ public class BetclicMatch {
 	}
 
 	public String setContestant2ShortName(String data) {
-		String value = GlobalScrapTools.getPropertyValue(data, "short_name", ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, "short_name", ",", false, true);
 		contestant2ShortName = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -68,7 +68,7 @@ public class BetclicMatch {
 	// ,name:Paris SG,odds:1.12,
 	public String setOdds1(String data) {
 		String propertyName = ",name:" + contestant1Name + ",odds";
-		String value = GlobalScrapTools.getPropertyValue(data, propertyName, ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, propertyName, ",", false, true);
 		odds1 = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -80,7 +80,7 @@ public class BetclicMatch {
 
 	public String setOddsN(String data) {
 		String propertyName = ",name:Nul,odds";
-		String value = GlobalScrapTools.getPropertyValue(data, propertyName, ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, propertyName, ",", false, true);
 		oddsN = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
@@ -91,7 +91,7 @@ public class BetclicMatch {
 
 	public String setOdds2(String data) {
 		String propertyName = ",name:" + contestant2Name + ",odds";
-		String value = GlobalScrapTools.getPropertyValue(data, propertyName, ",", false, true);
+		String value = ScrapTools.getPropertyValue(data, propertyName, ",", false, true);
 		odds2 = value;
 		return data.substring(data.indexOf(value) + value.length());
 	}
