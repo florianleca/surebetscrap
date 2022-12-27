@@ -5,7 +5,7 @@ import common.Match;
 public class WinamaxMatch extends Match{
 
 	private String mainBetId;
-	private String tournamentId;
+	//private String tournamentId;
 	
 	public String getMainBetId() {
 		return mainBetId;
@@ -15,11 +15,11 @@ public class WinamaxMatch extends Match{
 		this.mainBetId = mainBetId;
 	}
 	
-	public String getTournamentId() {
-		return tournamentId;
-	}
-	
-	public void setTournamentId(String tournamentId) {
-		this.tournamentId = tournamentId;
-	}
+//	public String getTournamentId() {
+//		return tournamentId;
+//	}
+//	
+//	public void setTournamentId(String tournamentId) {
+//		this.tournamentId = tournamentId;
+//	}
 }

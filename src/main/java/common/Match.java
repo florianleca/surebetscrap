@@ -3,14 +3,14 @@ package common;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Match {
+public class Match {
 	private String title;
 	private List<String> homeTeamNames;
 	private List<String> awayTeamNames;
 	private double[] mainBetOdds;
 
 	// constructor
-	protected Match() {
+	public Match() {
 		homeTeamNames = new ArrayList<>();
 		awayTeamNames = new ArrayList<>();
 		mainBetOdds = new double[3];

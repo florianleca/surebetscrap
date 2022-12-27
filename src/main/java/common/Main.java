@@ -6,7 +6,6 @@ import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import betclic.BetclicMatch;
 import betclic.BetclicScrapTools;
 import winamax.WinamaxScrapTools;
 import winamax.WinamaxWebPages;
@@ -24,7 +23,7 @@ public class Main {
 		
 		data = bst.dataClean(data);
 		List<String> isolatedMatchesData = bst.isolateMatchesData(data);
-		List<BetclicMatch> betclicMatches = bst.isolatedDataToBetclicMatches(isolatedMatchesData);
+		List<Match> betclicMatches = bst.isolatedDataToBetclicMatches(isolatedMatchesData);
 		
 	}
 }
