@@ -10,11 +10,12 @@ import org.jsoup.nodes.Document;
 
 import common.Bet;
 import common.BetOutcome;
+import common.Match;
 import common.ScrapTools;
 
 public class WinamaxScrapTools {
 
-	public void fillMatchProperties(String data, WinamaxMatch match) {
+	public void fillMatchProperties(String data, Match match) {
 		match.setTitle(ScrapTools.getPropertyValue(data, "title", ",", true, true));
 		match.addHomeTeamName(ScrapTools.getPropertyValue(data, "competitor1Name", ",", true, true));
 		match.addAwayTeamName(ScrapTools.getPropertyValue(data, "competitor2Name", ",", true, true));
@@ -23,14 +24,14 @@ public class WinamaxScrapTools {
 	}
 
 	// web page -> list of matches
-	public List<WinamaxMatch> pageToMatches(String data, String tournamentNumber) {
-		List<WinamaxMatch> matches = new ArrayList<>();
+	public List<Match> pageToMatches(String data, String tournamentNumber) {
+		List<Match> matches = new ArrayList<>();
 		data = data.substring(data.indexOf("matches\":{"));
 		while (data.contains("matchId")) {
 			int index = data.indexOf("matchId");
 			String tournamentId = ScrapTools.getPropertyValue(data, "tournamentId", ",", true, true);
 			if (tournamentId.equals(tournamentNumber)) {
-				WinamaxMatch match = new WinamaxMatch();
+				Match match = new Match();
 				fillMatchProperties(data, match);
 				matches.add(match);
 			}
@@ -40,10 +41,10 @@ public class WinamaxScrapTools {
 	}
 
 	// list of matches -> list of bets
-	public List<Bet> matchesToBets(String data, List<WinamaxMatch> matches) {
+	public List<Bet> matchesToBets(String data, List<Match> matches) {
 		data = data.substring(data.indexOf("\"bets\":{"));
 		List<Bet> bets = new ArrayList<>();
-		for (WinamaxMatch match : matches) {
+		for (Match match : matches) {
 			bets.add(new Bet(match, data.indexOf(match.getMainBetId())));
 		}
 		Collections.sort(bets);
@@ -78,7 +79,7 @@ public class WinamaxScrapTools {
 	public void winamaxAllInOne(WinamaxWebPages page) throws IOException {
 		Document doc = Jsoup.connect(page.getUrl()).get();
 		String data = doc.data();
-		List<WinamaxMatch> matches = pageToMatches(data, page.getTournamentId());
+		List<Match> matches = pageToMatches(data, page.getTournamentId());
 		List<Bet> bets = matchesToBets(data, matches);
 		bets.forEach(b -> System.out.println(b));
 	}

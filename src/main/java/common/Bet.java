@@ -2,15 +2,13 @@ package common;
 
 import java.util.List;
 
-import winamax.WinamaxMatch;
-
 public class Bet implements Comparable<Bet> {
 	private String id;
-	private WinamaxMatch match;
+	private Match match;
 	private int indexInData;
 	private List<BetOutcome> outcomes;
 
-	public Bet(WinamaxMatch match, int indexInData) {
+	public Bet(Match match, int indexInData) {
 		this.id = match.getMainBetId();
 		this.match = match;
 		this.indexInData = indexInData;
@@ -32,11 +30,11 @@ public class Bet implements Comparable<Bet> {
 		this.id = id;
 	}
 
-	public WinamaxMatch getMatch() {
+	public Match getMatch() {
 		return match;
 	}
 
-	public void setMatch(WinamaxMatch match) {
+	public void setMatch(Match match) {
 		this.match = match;
 	}
 

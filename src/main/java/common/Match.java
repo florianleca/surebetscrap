@@ -8,6 +8,7 @@ public class Match {
 	private List<String> homeTeamNames;
 	private List<String> awayTeamNames;
 	private double[] mainBetOdds;
+	private String mainBetId;
 
 	// constructor
 	public Match() {
@@ -81,4 +82,12 @@ public class Match {
 			throw new IllegalArgumentException("Only '1', 'N' or '2' are valid outcomes.");
 		}
 	}	
+	
+	public String getMainBetId() {
+		return mainBetId;
+	}
+	
+	public void setMainBetId(String mainBetId) {
+		this.mainBetId = mainBetId;
+	}
 }
