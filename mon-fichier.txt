@@ -1,0 +1,1596 @@
+
+  .v3-btn.v3-btn-text.v3-login-btn{
+    color: #ffffff;
+  }
+   .v3-btn.v3-btn-text.v3-login-btn:hover{
+    color: #d80d83;
+  }
+  .v3-btn.v3-btn-primary.v3-register-btn,
+  html .v3-btn.v3-btn-primary{
+    background: #d80d83;
+    border-color: #d80d83;
+    color: #ffffff;
+  }
+
+  .v3-btn.v3-btn-primary.v3-register-btn:hover,
+  .v3-btn.v3-btn-primary.v3-register-btn:focus,
+  html .v3-btn.v3-btn-primary:hover,
+  html .v3-btn.v3-btn-primary:focus{
+    background: #ee058d;
+    border-color: #ee058d;
+    color: #ffffff;
+  }
+
+  .accountMessages_sidebar button{
+
+   display:none!important;
+
+}
+
+{
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "name": "VBET",
+  "url": "https://vbet.fr",
+  "description": "VBET France est un opérateur de paris sportifs en ligne appartenant au groupe SoftConstruct, entreprise arménienne. Fondée en 2003 par Vigen et Vahe Badalyan, la société est aujourd'hui présente dans plus de 120 pays.VBET France possède de nombreuses offres de paris, propose des cotes intéressantes ainsi que des promotions régulières.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "81 rue de France",
+    "addressLocality": "Nice",
+    "addressRegion": "Nice",
+    "postalCode": "06100",
+    "addressCountry": "France"
+  },
+  "email": "support@vbet.fr",
+  "telephone": "+33755539461",
+  "logo": {
+      "@type": "ImageObject",
+      "url": "https://static.springbuilder.site/fs/userFiles-v2/france-18746848/images/logo.svg?v=1646045264",
+      "caption": "Vbet"
+  },
+  "sameAs":[
+    "https://www.facebook.com/vbetfrance/",
+    "https://twitter.com/VBET_fr",
+    "https://www.instagram.com/vbet_fr/",
+    "https://www.twitch.tv/vbet_fr",
+    "https://t.me/VBETfr"
+  ]
+}
+
+            @font-face {
+                font-family: 'Heading Now W05 27 Extrabold Custom';
+                font-display: swap;
+                src: url(https://static.springbuilder.site/fs/userFiles-v2/france-18746848/fonts/HeadingNow-27Extrabold.otf?v=1646045263);
+            
+
+
+            }
+        
+    window.currentLanguage = 'fr';
+    window.currentLanguagePrefix = 'fr';
+
+    let renderCustomCodeOnClientDomain = "1";
+    window.renderCustomCodeOnClientDomain = !renderCustomCodeOnClientDomain ? 0 : parseInt(renderCustomCodeOnClientDomain);
+    var ecommerceAssetsDomain = '';
+    var typographyTranslations = {"typography.headings":"Titres","typography.heading1":" Titre 1","typography.heading2":" Titre 2","typography.heading3":" Titre 3","typography.heading4":" Titre 4","typography.heading5":" Titre 5","typography.heading6":" Titre 6","typography.paragraphStyling":"Styles de paragraphe","typography.paragraphText":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <a href='javascript:void(0)'>eiusmod incididunt<\/a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","typography.copiedText":"Texte copi\u00e9","typography.copyToClipboard":"Copier dans le presse-papier"};
+
+        partnerConfigs = {"swarmUrl":"wss:\/\/swarm-2.vbet.fr\/","sbPageUrls":{"live":"https:\/\/www.vbet.fr\/paris-en-direct","prematch":"https:\/\/www.vbet.fr\/paris-sportifs"},"domain":"www.vbet.fr","siteName":"VBET","siteNameSeparatorInTitles":" - ","showSiteNameInTitles":"1","springConfig":{"partnerId":"277","realityCheck":"","domain":"","casinoIFrameMobileOnOff":0,"giftBet":"","reBet":"1","appendCustomCodeLogin":"1","customCodeLogin":"<script>\ndataLayer.push({\n  'event': 'Login',\n  'userId': '@@user_id',\n  'balance': '@@balance',\n  'bonus_money': '@@bonus_money',\n  'btag': '@@btag',\n  'email': '@@email',\n  'name': '@@name',\n  'username': '@@username'\n})\n<\/script>\n\n<iframe src=\"https:\/\/www.pixelhere.com\/et\/event.php?advertiser=156252&cid=@@btag&id=28c900\" height=\"0\" width=\"0\"><\/iframe>","appendCustomCodeRegistration":"1","customCodeRegistration":"<script>\ndataLayer.push({\n  'event': 'Signup',\n  'userId': '@@user_id',\n  'current_domain': 'window.siteInfo.domain',\n  'email': '@@email',\n  'name': '@@name',\n  'username': '@@username'\n})\n<\/script>\n\n\n\n<!-- Twitter single-event website tag code -->\n<script src=\"\/\/platform.twitter.com\/oct.js\" type=\"text\/javascript\"><\/script>\n<script type=\"text\/javascript\">twttr.conversion.trackPid('o3hag', { tw_sale_amount: 0, tw_order_quantity: 0 });<\/script>\n<noscript>\n<img height=\"1\" width=\"1\" style=\"display:none;\" alt=\"\" src=\"https:\/\/analytics.twitter.com\/i\/adsct?txn_id=o3hag&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0\" \/>\n<img height=\"1\" width=\"1\" style=\"display:none;\" alt=\"\" src=\"\/\/t.co\/i\/adsct?txn_id=o3hag&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0\" \/>\n<\/noscript>\n<!-- End Twitter single-event website tag code -->\n\n\n<iframe src=\"https:\/\/www.pixelhere.com\/et\/event.php?advertiser=156252&cid=@@btag&id=c47347&tid=@@user_id\" height=\"0\" width=\"0\"><\/iframe>\n\n\n<script>\npixie('event', 'Lead', {\n  item_id: @@user_id\n});\n<\/script>","appendCustomCodeDeposit":"1","appendCustomCodeRegistrationPopupOpen":"1","customCodeRegistrationPopupOpen":"<script>\ndataLayer.push({\n  'event': 'Regstart',\n  'current_domain': 'window.siteInfo.domain'\n})\n<\/script>","customCodeDeposit":"<script>\ndataLayer.push({\n  'event': 'Deposit',\n  'userId': '@@user_id',\n  'value': '@@amount',\n  'email': '@@email',\n  'balance': '@@balance',\n  'bonus_money': '@@bonus_money',\n  'btag': '@@btag',\n  'currency': '@@currency',\n  'email': '@@email',\n  'name': '@@name',\n  'username': '@@username'\n})\n<\/script>\n\n\n<script>\n    if ( \"@@firstDeposit\" == \"true\" ) {\n        if (window.Hoory) {\n            window.Hoory('signup', {\"variation\": \"Bonus de Bienvenue\"});\n        } else {\n            window.addEventListener(\"message\", (event) => {\n                if (event.data === 'hoory-loaded' && window.Hoory) {\n                    window.Hoory('signup', {\"variation\": \"Bonus de Bienvenue\"});\n                }\n            }, false);\n        }\n    }\n<\/script>","statisticsLink":"https:\/\/statistics.vbet.fr","betslipCustomCode":"<script>\ndataLayer.push({\n  'event': 'Bet',\n  'userId': '@@user_id',\n  'value': '@@amount',\n  'bet_id': '@@bet_id',\n  'bet_type':'@@bet_type',\n  btag: '@@btag',\n  'currency': '@@currency',\n  'email': '@@email',\n  'is_superbet': 'is_superbet',\n  'k': '@@k',\n  'name': '@@name',\n  'username': '@@username'\n})\n<\/script>","betslipAppendCustomCodeActivity":"1","enableFirebase":"1","firebaseApiKey":"AIzaSyCEiW0Xll7zieYaSIrvjIf6xLG0HqgW2M8","firebaseAuthDomain":"vbetfr-b3d6c.firebaseapp.com","firebaseProjectId":"vbetfr-b3d6c","firebaseStorageBucket":"vbetfr-b3d6c.appspot.com","firebaseMessagingSenderId":"953395507516","firebaseAppId":"1:953395507516:web:9e22197815b358e5aeee39","firebaseMeasurementId":"","firebaseVapidKey":"BKN12B89K0rE80ZtRxU58XjqWlyvNKUvXhWGEWtGTI1j81ekZjV-PYKvBt9Jh-_vD0L89MkRHXdmWyYoFUWhAPU","appendCustomFailedLogin":"","customFailedLogin":"","appendCustomFailedDeposit":"","customFailedDeposit":"","appendCustomCodeFirstDeposit":"1","customCodeFirstDeposit":"<script>\ndataLayer.push({\n  'event': 'FTD',\n  'userId': '@@user_id',\n  'value': '@@amount',\n  'email': '@@email',\n  'balance': '@@balance',\n  'bonus_money': '@@bonus_money',\n  'btag': '@@btag',\n  'currency': '@@currency',\n  'email': '@@email',\n  'name': '@@name',\n  'username': '@@username'\n})\n<\/script>","appendCustomCodeRegistrationWithErrors":"","customCodeRegistrationWithErrors":""},"accountRegistrationJsonPath":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/data\/springXConfigs\/v3RegFields.json?v=1676121429","accountSectionsJsonPath":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/data\/springXConfigs\/accountSectionsJsonPath.json?v=1676121429","accountParams":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/data\/springXConfigs\/settings.json?v=1676121429","aToZJsonPath":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/data\/springXConfigs\/aToZJsonPath.json?v=1676121429","aToZNavigationJsonPath":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/data\/springXConfigs\/aToZNavigationJsonPath.json?v=1676121429","jurisdiction":"4","userFilesUrl":"https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/","accountType":1,"termsLink":"https:\/\/www.vbet.fr\/termes-et-conditions-generales","termsPopupLink":"\/termes-et-conditions-generales?show-layout=body","privacyPolicyLink":75,"termsLinkTarget":true,"privacyPolicyTarget":true,"isCompetitionCompact":0,"isStreamActiveTabCompact":1,"isCompact":0,"bookBetAvailable":0,"bookBetSharingAvailable":0,"printBetAvailable":0,"betslipFloatingMode":false,"version":1675876254,"teamLogos":"0","quickBet":1,"removeSuspendedSelection":1,"translationsVersion":1676121430,"outrightFilter":0,"multiplesEnabled":0,"boostedOddsEnabled":1,"topLeagues":1,"todayEvents":1,"betBuilder":false,"betBuilderIframeUrl":"","carouselArrows":true,"editBetAvailable":0,"currenciesWithSymbols":false,"currencyPlacement":"default","realityCheckSwitcher":0,"casinoHighQualityPictures":false,"casinoGamblingLogoUrl":null,"defaultOddAccept":"2","pushNotifications":false,"currentCountry":"FR","themeMode":0,"betsWithSameGroup":1,"defaultOddTypes":["decimal","fractional","american","hongkong","malay","indo"],"defaultSelectedOddType":"decimal","openBetsByDefault":0,"seonIntegration":false,"seonValidationAction":"all","betStatusCheck":false,"statisticEnabled":true,"statisticsLink":"https:\/\/statistics.vbet.fr","betslipType":0,"betslipPredefinedStakes":false,"betslipDefaultStake":false,"isTopNavigationButtonEnabled":false,"isTwoFactorAvailable":false,"sportsbookIconStyle":"colored","flagStyle":"circled","initiallyOpen":"sportsTypes","GPSTrackingEnabled":false,"casinoFunMode":true,"casinoGameSideBar":true,"priceSeparator":false,"iframe_sportsbook":false,"homeworkEnabled":false,"iovationEnabled":0,"iovationMode":0,"sportTournaments":false,"betslipHideMaxBtn":false,"rebetAvailable":1,"gameNumber":false,"personalizedSports":false,"sportsGrouping":0}
+    
+            partnerConfigs.enableBottomNavigation = true;
+        
+
+            window.hrefLangRelations = '{"type":"0","urls":{"fr":"https:\/\/www.vbet.fr\/calendrier"},"currentPrefix":"fr","detectedPrefix":"fr","additionalCodes":[],"routPrefix":"","currentUrl":"https:\/\/www.vbet.fr\/calendrier","redirectByLastUsedAlias":false,"redirectByLastLanguageCookie":true,"availableTypes":["pageArticles","pageArticle","pageBlank"]}';
+
+    
+    tryToRedirectToRightLanguage(null);
+
+    
+    function tryToRedirectToRightLanguage(languagePrefix) {
+        var languagesObj = JSON.parse(window.hrefLangRelations);
+
+
+        if (isCustomDomain() || languagesObj.redirectByLastUsedAlias) {
+
+            const cookies = getCookieObject();
+
+            var lastLanguage = languagePrefix;
+
+            if (!lastLanguage) {
+                lastLanguage = getLastLanguageFromCookies(cookies);
+            }
+
+            const defaultLanguagePrefix = getDefaultLanguagePrefix();
+
+            const assignedLangPrefix = getAssignedLangPrefix();
+
+            const redirectByLastLanguageCookie = languagesObj.redirectByLastLanguageCookie;
+
+
+            var lastAlias = getLastAliasFromCookies(cookies);
+
+            if (!isAdminMode() && !isPreviewMode() && languagesObj.redirectByLastUsedAlias) {
+                if (isUrlIncludesHomeAlias()) {
+                    return redirectHomePage();
+                } else if (lastAlias && isHomePage()) {
+                    unsetAliasCookie();
+                    return window.location.replace(decodeURIComponent(lastAlias));
+
+                } else if (!isHomePage()) {
+                    var url = null;
+                    var pageType = "pageSportsCalendar";
+                    if(defaultLanguagePrefix === languagesObj.routPrefix){
+                        var iframeSportsbook = '';
+                                                url = window.location.protocol + "//" + window.location.host + iframeSportsbook + window.location.pathname.replace("/" + defaultLanguagePrefix, "");
+                        if (languagesObj.availableTypes.includes(pageType)){
+                            setAliasCookie(url);
+                        }
+                        if(redirectByLastLanguageCookie) {
+                            setLanguageCookie(languagesObj.routPrefix, url)
+                        }
+                        return window.location.replace(url);
+                    } else {
+                        url = window.location.href;
+                        if (languagesObj.availableTypes.includes(pageType)){
+                            setAliasCookie(url);
+                        }
+                    }
+                }
+            }
+            if (languagesObj.routPrefix && languagesObj.urls.hasOwnProperty(languagesObj.routPrefix)) {
+                if (lastLanguage !== languagesObj.routPrefix || defaultLanguagePrefix == languagesObj.routPrefix
+                    || assignedLangPrefix === lastLanguage) {
+
+                    var url = languagesObj.urls[languagesObj.routPrefix];
+
+                    if (url === decodeURI(window.location.origin + window.location.pathname).replace(/\/$/, "")) {
+                        if (assignedLangPrefix === languagesObj.routPrefix || defaultLanguagePrefix == languagesObj.routPrefix) {
+                            url = url.replace('/' + languagesObj.routPrefix, '');
+                            if(redirectByLastLanguageCookie) {
+                                setLanguageCookie(languagesObj.routPrefix, url);
+                            }
+                        } else {
+                            if(redirectByLastLanguageCookie) {
+                                setLanguageCookie(languagesObj.routPrefix, null);
+                            }
+                        }
+                    }
+                    if(redirectByLastLanguageCookie) {
+                        setLanguageCookie(languagesObj.routPrefix, url);
+                    }
+                }
+
+                return false;
+
+            } else {
+                var hrefLangPrefix = '';
+
+                for (var languageCode in languagesObj.urls) {
+                    if (lastLanguage) {
+                        if (redirectByLastLanguageCookie && lastLanguage === languageCode
+                            // && defaultLanguagePrefix !== lastLanguage
+                            && languagesObj.currentPrefix !== languageCode) {
+                            if (languagesObj.routPrefix) {
+                                if(languagesObj.currentUrl !== languagesObj.urls[languageCode]){
+                                    window.location.replace(languagesObj.urls[languageCode]);
+                                }
+                            } else {
+                                var cookieUrl = window.location.protocol + "//" + window.location.host + "/" + lastLanguage + window.location.pathname;
+                                setAliasCookie(cookieUrl);
+                                if(languagesObj.currentUrl !== cookieUrl) {
+                                    window.location.replace(lastLanguage + window.location.pathname + window.location.search + window.location.hash);
+                                }
+
+                            }
+                            return false;
+                        }
+                    } else {
+                        if (languagesObj.type == "2") {
+                            hrefLangPrefix = languageCode.split('-').pop();
+                        } else {
+                            hrefLangPrefix = languageCode
+                        }
+                        if (defaultLanguagePrefix !== languagesObj.detectedPrefix
+                            && languagesObj.currentPrefix !== hrefLangPrefix) {
+                            if (hrefLangPrefix === languagesObj.detectedPrefix
+                                && languagesObj.currentPrefix !== languageCode) {
+                                if(languagesObj.currentUrl !== languagesObj.urls[languageCode]) {
+                                    window.location.replace(languagesObj.urls[languageCode] + window.location.search + window.location.hash);
+                                    return false;
+                                }
+                            } else {
+                                if(languagesObj.detectedPrefixv) {
+                                    for (var code in languagesObj.additionalCodes) {
+                                        var currentCode = languagesObj.additionalCodes[code];
+
+                                        currentCode.forEach(item => {
+                                            if (item.includes(`-${languagesObj.detectedPrefix}`) &&
+                                                defaultLanguagePrefix !== languagesObj.detectedPrefix &&
+                                                languagesObj.currentPrefix !== hrefLangPrefix) {
+                                                if(languagesObj.currentUrl !== languagesObj.urls[code]) {
+                                                    window.location.replace(languagesObj.urls[code] + window.location.search + window.location.hash);
+                                                    return false;
+                                                }
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    function getCookieObject() {
+        const cookies = document.cookie;
+
+        return cookies.split('; ').map((item) => {
+            let [key, value] = item.split('=');
+            return {[key]: value};
+        });
+    }
+
+    function getLastLanguageFromCookies(cookies) {
+        let lastLanguage = null;
+
+        for (cookie of cookies) {
+            if (cookie['lastlanguage']) {
+                lastLanguage = cookie['lastlanguage'];
+                break;
+            }
+        }
+
+        return lastLanguage;
+    }
+
+    function getLastAliasFromCookies(cookies) {
+        let lastAlias = null;
+
+        for (cookie of cookies) {
+            if (cookie['lastalias']) {
+                lastAlias = cookie['lastalias'];
+                break;
+            }
+        }
+
+        return lastAlias;
+    }
+
+    function isCustomDomain() {
+        return 1;
+    }
+
+    function getDefaultLanguagePrefix() {
+        return "fr";
+    }
+
+    function getAssignedLangPrefix() {
+        return "fr"
+    }
+
+    function setLanguageCookie(prefix, url) {
+        var d = new Date();
+        var hour = 20;
+        d.setTime(d.getTime() + (hour * 60 * 60 * 1000));
+        var cookieExpireDate = "expires=" + d.toString();
+        document.cookie = "lastlanguage=" + prefix + ";path=/; " + cookieExpireDate;
+    }
+
+    function setAliasCookie(url) {
+        var d = new Date();
+        var hour = 20;
+        d.setTime(d.getTime() + (hour * 60 * 60 * 1000));
+        var cookieExpireDate = "expires=" + d.toString();
+        document.cookie = "lastalias=" + url + ";path=/; " + cookieExpireDate;
+    }
+
+    function unsetAliasCookie() {
+        document.cookie = "lastalias=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    }
+
+    function isAdminMode() {
+        return false;
+    }
+
+    function isPreviewMode() {
+        return false;
+    }
+
+    function isHomePage() {
+        return 0;
+    }
+
+    function isUrlIncludesHomeAlias() {
+        var pathArray = window.location.pathname.split('/');
+        var homeAlias = "calendrier";
+        return (isHomePage() && (pathArray[1] == homeAlias || pathArray[2] == homeAlias));
+    }
+
+    function redirectHomePage() {
+        unsetAliasCookie();
+        return window.location.replace(window.location.protocol + "//" + window.location.host );
+        var pathArray = window.location.pathname.split('/');
+        var homeAlias = 'home';
+
+        if (pathArray.pop() == homeAlias) {
+            return window.location.replace(window.location.protocol + "//" + window.location.host + pathArray.join('/'));
+        }
+
+        return false;
+    }
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M39WK4F');
+.row-forward {
+z-index: 4 !important;
+}
+
+!function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "5020c7f3-9c7b-44e5-947c-74d8d413e261"}})
+AF('banners', 'showBanner')
+
+        		#navigation-1 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-1 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-1 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-1 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-1 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-1 .page a {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+    }
+
+    #navigation-1 .page a .sb-dropdown-arrow-down svg {
+        fill: #FFFFFF;
+    }
+
+            #navigation-1 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 20px;
+            }
+    #navigation-1 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-1 li.page > a:hover {
+        color: rgb(106, 255, 182) !important;
+    }
+    #navigation-1 li.page.active > a {
+        color: rgb(106, 255, 182);
+    }
+    #navigation-1 li.page.active > a:hover {
+        color: rgb(255, 255, 255) !important;
+    }
+    #navigation-1 li.page.active > a {
+        color: rgb(106, 255, 182);
+    }
+
+    #navigation-1 li.page.active > a:hover {
+        color: rgb(255, 255, 255) !important;
+    }
+    #navigation-1 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-1 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-1 li.page > ul.page-children > li.page a:hover,
+    #navigation-1 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-1 li.page > ul.page-children > li.page.active > a,
+    #navigation-1 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-1 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-1 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-1 .subMenu__show:before,
+    #navigation-1 .subMenu__horizontal-arrow-left:before,
+    #navigation-1 .subMenu__horizontal-arrow-right:before,
+    #navigation-1 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-1 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-1 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-1 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-1 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-1 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 8px;
+        height: 8px;
+        line-height: 10px;
+    }
+
+    #navigation-1 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-1 li.has-childes.page > .page-children li > a,
+    #navigation-1 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+                 #navigation-1 li.page {
+        text-align: center ;;
+    }
+    
+    var slider9034options = {
+        slideType: "fade",
+        animationSpeed: 1000/ 1000,
+        autoPlay: "on",
+        autoPlayOnHover: "off",
+        autoPlayDelay: 4000,
+        pagination: "off",
+        arrows: "off",
+        touchEvents: "on"
+    };
+
+    .ModuleSpace[datamodule-id="8656"] .space-container {
+                    border-radius: 0 0 0 0;
+                            }
+
+    .ModuleSpace[datamodule-id="8656"]:hover .space-container{
+                    border-radius: 0 0 0 0;
+                        }
+
+        .ModuleSpace[datamodule-id="8656"] .uc-row .column:first-child {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        .ModuleSpace[datamodule-id="8656"] .uc-row .column:last-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        		#navigation-94 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-94 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-94 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-94 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-94 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-94 .page a {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    #navigation-94 .page a .sb-dropdown-arrow-down svg {
+        fill: #FFFFFF;
+    }
+
+            #navigation-94 > nav > ul > li.page:not(:last-child) {
+                        margin-right: 15px;
+            }
+    #navigation-94 > nav > ul > li:first-child:nth-last-child(1) {
+            }
+    #navigation-94 li.page > a:hover {
+        color: rgb(216, 13, 131) !important;
+    }
+    #navigation-94 li.page.active > a {
+        color: rgb(216, 13, 131);
+    }
+    #navigation-94 li.page.active > a:hover {
+        color: rgb(216, 13, 131) !important;
+    }
+    #navigation-94 li.page.active > a {
+        color: rgb(216, 13, 131);
+    }
+
+    #navigation-94 li.page.active > a:hover {
+        color: rgb(216, 13, 131) !important;
+    }
+    #navigation-94 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-94 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-94 li.page > ul.page-children > li.page a:hover,
+    #navigation-94 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-94 li.page > ul.page-children > li.page.active > a,
+    #navigation-94 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-94 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-94 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-94 .subMenu__show:before,
+    #navigation-94 .subMenu__horizontal-arrow-left:before,
+    #navigation-94 .subMenu__horizontal-arrow-right:before,
+    #navigation-94 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-94 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-94 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-94 li.page ul.page-children .page {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #navigation-94 li.page ul.page-children .page:last-child {
+        padding-bottom: 10px;
+    }
+
+    #navigation-94 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 8px;
+        height: 8px;
+        line-height: 10px;
+    }
+
+    #navigation-94 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-94 li.has-childes.page > .page-children li > a,
+    #navigation-94 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+    .ModuleSpace[datamodule-id="8657"] .space-container {
+                    border-radius: 0 0 0 0;
+                            }
+
+    .ModuleSpace[datamodule-id="8657"]:hover .space-container{
+                    border-radius: 0 0 0 0;
+                        }
+
+        .ModuleSpace[datamodule-id="8657"] .uc-row .column:first-child {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        .ModuleSpace[datamodule-id="8657"] .uc-row .column:last-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        let interval = setInterval(widdgets, 10);
+
+        function widdgets() {
+            if (window.initWidgets) {
+                clearInterval(interval);
+                window.initWidgets();
+            }
+        }
+    
+
+
+
+.header-rows .ModuleNavigation>.navigation-inner:not(.in-canvas)>.off-canvas-button{
+   display: none!important;
+}
+
+.ModuleLanguageSwitcher .languages ul{
+   min-width: 89px!important;
+}
+
+@media only screen and (max-width:991px) {
+
+     .header-row-wrapper{
+         height: initial!important;
+      }
+
+    .header .row-container  .row .column:nth-child(1) {
+      flex-basis: 15%!important;
+      max-width: 15%!important;
+    }
+
+  .header .row-container  .row .column:nth-child(2){
+     flex-basis: 35%!important;
+      max-width: 35%!important;
+    }
+
+   .header .row-container  .row .column:nth-child(3){
+    flex-basis: 0%!important;
+      max-width: 0%!important;
+    }
+
+    .header .row-container  .row .column:nth-child(4){
+      flex-basis: 50%!important;
+      max-width: 50%!important;
+     }
+
+}
+
+
+
+        .animated-6472 .effect-block.effect-lilly .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-default .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-sadie .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-honey .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-roxy .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-sarah .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-Soft-Fade .layer{ background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-apollo .layer{background: rgba(0, 0, 0, 0.5) !important;}.animated-6472 .effect-block.effect-honey .figcaption:before{background: rgb(52, 52, 52) !important;}.animated-6472 .effect-block.effect-roxy .figcaption:before{border-image: rgb(52, 52, 52) 3 stretch;-moz-border-image: -moz-rgb(52, 52, 52) 3 stretch;border-width: 3px;border:3px solid rgb(52, 52, 52);}.animated-6472 .effect-block.effect-apollo .figcaption:before{background: rgb(52, 52, 52) !important;}.animated-6472 .effect-block.effect-apollo .description:before{background: rgb(52, 52, 52) !important ;}.animated-6472 .effect-block.effect-sarah .title:after{background: rgb(52, 52, 52) !important;}.animated-6472 .effect-block.effect-steve .title,.animated-6472 .effect-block.effect-steve .description{background: rgb(52, 52, 52) !important;}.animated-6472 .effect-block.effect-goliath {background: rgb(52, 52, 52) !important;}    
+    
+    .module.ModuleGallery[datamodule-id="6472"] .gallery > div {
+        padding: 5px 20px;
+    }
+
+
+    var pageLimit6472;
+    var firstLoad6472 = false;
+    var slider6472options = {
+        slideType: "horizontal",
+        animationSpeed: 1000 / 1000,
+        autoPlay: "on",
+        autoPlayOnHover: "on",
+        autoPlayDelay: 4000,
+        pagination: "off",
+        arrows: "0",
+        touchEvents: "on"
+    };
+
+    if (!0) {
+        window.addEventListener('load', () => {
+            setGallerySettings(6472, 0, null, 0);
+        });
+    }
+
+    .ModuleSpace[datamodule-id="3635"] .space-container {
+                    border-radius: 0 0 0 0;
+                            }
+
+    .ModuleSpace[datamodule-id="3635"]:hover .space-container{
+                    border-radius: 0 0 0 0;
+                        }
+
+        .ModuleSpace[datamodule-id="3635"] .uc-row .column:first-child {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        .ModuleSpace[datamodule-id="3635"] .uc-row .column:last-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        		#navigation-3668 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3668 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3668 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3668 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3668 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3668 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+    }
+
+    #navigation-3668 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3668 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 20px;
+            }
+    #navigation-3668 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3668 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3668 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3668 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3668 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3668 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3668 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3668 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3668 li.page > ul.page-children > li.page a:hover,
+    #navigation-3668 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3668 li.page > ul.page-children > li.page.active > a,
+    #navigation-3668 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3668 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3668 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3668 .subMenu__show:before,
+    #navigation-3668 .subMenu__horizontal-arrow-left:before,
+    #navigation-3668 .subMenu__horizontal-arrow-right:before,
+    #navigation-3668 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3668 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3668 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3668 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3668 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3668 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3668 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3668 li.has-childes.page > .page-children li > a,
+    #navigation-3668 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+        		#navigation-3669 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3669 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3669 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3669 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3669 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3669 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+    }
+
+    #navigation-3669 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3669 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 20px;
+            }
+    #navigation-3669 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3669 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3669 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3669 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3669 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3669 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3669 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3669 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3669 li.page > ul.page-children > li.page a:hover,
+    #navigation-3669 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3669 li.page > ul.page-children > li.page.active > a,
+    #navigation-3669 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3669 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3669 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3669 .subMenu__show:before,
+    #navigation-3669 .subMenu__horizontal-arrow-left:before,
+    #navigation-3669 .subMenu__horizontal-arrow-right:before,
+    #navigation-3669 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3669 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3669 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3669 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3669 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3669 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3669 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3669 li.has-childes.page > .page-children li > a,
+    #navigation-3669 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+    .ModuleSpace[datamodule-id="3640"] .space-container {
+                    border-radius: 0 0 0 0;
+                            }
+
+    .ModuleSpace[datamodule-id="3640"]:hover .space-container{
+                    border-radius: 0 0 0 0;
+                        }
+
+        .ModuleSpace[datamodule-id="3640"] .uc-row .column:first-child {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        .ModuleSpace[datamodule-id="3640"] .uc-row .column:last-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        		#navigation-3670 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3670 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3670 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3670 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3670 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3670 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+    }
+
+    #navigation-3670 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3670 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 20px;
+            }
+    #navigation-3670 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3670 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3670 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3670 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3670 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3670 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3670 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3670 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3670 li.page > ul.page-children > li.page a:hover,
+    #navigation-3670 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3670 li.page > ul.page-children > li.page.active > a,
+    #navigation-3670 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3670 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3670 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3670 .subMenu__show:before,
+    #navigation-3670 .subMenu__horizontal-arrow-left:before,
+    #navigation-3670 .subMenu__horizontal-arrow-right:before,
+    #navigation-3670 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3670 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3670 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3670 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3670 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3670 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3670 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3670 li.has-childes.page > .page-children li > a,
+    #navigation-3670 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+        		#navigation-3671 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3671 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3671 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3671 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3671 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3671 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+    }
+
+    #navigation-3671 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3671 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 16px;
+            }
+    #navigation-3671 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3671 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3671 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3671 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3671 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3671 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3671 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3671 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3671 li.page > ul.page-children > li.page a:hover,
+    #navigation-3671 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3671 li.page > ul.page-children > li.page.active > a,
+    #navigation-3671 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3671 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3671 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3671 .subMenu__show:before,
+    #navigation-3671 .subMenu__horizontal-arrow-left:before,
+    #navigation-3671 .subMenu__horizontal-arrow-right:before,
+    #navigation-3671 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3671 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3671 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3671 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3671 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3671 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3671 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3671 li.has-childes.page > .page-children li > a,
+    #navigation-3671 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+    .ModuleSpace[datamodule-id="3645"] .space-container {
+                    border-radius: 0 0 0 0;
+                            }
+
+    .ModuleSpace[datamodule-id="3645"]:hover .space-container{
+                    border-radius: 0 0 0 0;
+                        }
+
+        .ModuleSpace[datamodule-id="3645"] .uc-row .column:first-child {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        .ModuleSpace[datamodule-id="3645"] .uc-row .column:last-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        		#navigation-3672 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3672 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3672 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3672 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3672 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3672 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+    }
+
+    #navigation-3672 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3672 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 16px;
+            }
+    #navigation-3672 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3672 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3672 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3672 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3672 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3672 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3672 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3672 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3672 li.page > ul.page-children > li.page a:hover,
+    #navigation-3672 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3672 li.page > ul.page-children > li.page.active > a,
+    #navigation-3672 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3672 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3672 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3672 .subMenu__show:before,
+    #navigation-3672 .subMenu__horizontal-arrow-left:before,
+    #navigation-3672 .subMenu__horizontal-arrow-right:before,
+    #navigation-3672 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3672 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3672 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3672 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3672 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3672 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3672 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3672 li.has-childes.page > .page-children li > a,
+    #navigation-3672 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+                {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calendrier"}]}            
+        		#navigation-3673 > .standard-view > .navigation > .page > .page-children {
+        background: #f1f1f1;
+    }
+    #navigation-3673 > .standard-view > .navigation > .page > .page-children > .page > ul {
+        background: #f1f1f1;
+    }
+            
+        #navigation-3673 .navigation > li.has-childes.page > ul a {
+        padding: 0 15px;
+    }
+
+        
+                        #navigation-3673 .navigation > li.has-childes.page > ul.page-children:after {
+                height: 10px;
+            }
+            #navigation-3673 ul.open-to-top::after {
+                position: absolute;
+                bottom: -10px;
+            }
+            	#navigation-3673 .page a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+    }
+
+    #navigation-3673 .page a .sb-dropdown-arrow-down svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
+
+            #navigation-3673 > nav > ul > li.page:not(:last-child) {
+                        margin-bottom: 16px;
+            }
+    #navigation-3673 > nav > ul > li:first-child:nth-last-child(1) {
+                          margin-bottom: 40px;
+            }
+    #navigation-3673 li.page > a:hover {
+        color: rgb(255, 252, 252) !important;
+    }
+    #navigation-3673 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+    #navigation-3673 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3673 li.page.active > a {
+        color: rgb(255, 252, 252);
+    }
+
+    #navigation-3673 li.page.active > a:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    #navigation-3673 li.page > ul.page-children li.page a {
+        color: #353535;
+    }
+    #navigation-3673 li.page > ul.page-children li.page a .sb-dropdown-arrow-down svg {
+        fill: #353535;
+    }
+    #navigation-3673 li.page > ul.page-children > li.page a:hover,
+    #navigation-3673 li.page > ul.page-children > li.page > ul.page-children > li.page a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3673 li.page > ul.page-children > li.page.active > a,
+    #navigation-3673 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a {
+        color: #353535;
+    }
+
+    #navigation-3673 li.page > ul.page-children > li.page.active > a:hover,
+    #navigation-3673 li.page > ul.page-children > li.page > ul.page-children > li.page.active > a:hover {
+        color: #959595     !important;
+    }
+    #navigation-3673 .subMenu__show:before,
+    #navigation-3673 .subMenu__horizontal-arrow-left:before,
+    #navigation-3673 .subMenu__horizontal-arrow-right:before,
+    #navigation-3673 li.page > ul.page-children > li.has-childes > .page-children.pagesArrows > li:first-child:before {
+        color: #f1f1f1;
+    }
+
+            #navigation-3673 li.page > ul.page-children > li.page > a {
+                          color: #353535;
+                                 font-size: 12px;
+        }
+
+    
+        #navigation-3673 li.page > ul.page-children > li.page > a {
+        font-weight: 400;
+    }
+
+            #navigation-3673 li.page ul.page-children .page {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #navigation-3673 li.page ul.page-children .page:last-child {
+        padding-bottom: 5px;
+    }
+
+    #navigation-3673 li.has-childes.page > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 8px;
+    }
+
+    #navigation-3673 li.has-childes.page > .page-children.pagesArrows > .has-childes > a > .sb-dropdown-arrow-down svg {
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+    }
+
+    #navigation-3673 li.has-childes.page > .page-children li > a,
+    #navigation-3673 li.has-childes.page > .page-children li {
+        text-align: center;
+    }
+
+             
+    
+    
+    .social-icon-wrapper ul[data-module-id='589'] li {
+        text-transform: none;
+        margin-right:7px;
+    }
+
+            .social-icon-wrapper ul[data-module-id='589'] li {
+            font-size: 16px;
+
+                            width: 16px;
+                height: 16px;
+                    }
+
+            
+            .social-icon-wrapper ul[data-module-id='589'] li {
+            font-family: 'Roboto';
+            font-weight: 400;
+
+                            margin-left: 0px;
+                    }
+
+            
+            .social-icon-wrapper ul[data-module-id='589'] li {
+            letter-spacing: 0;
+        }
+    
+    
+            .social-icon-wrapper ul[data-module-id='589'] li a svg {
+            fill: rgba(255, 255, 255, 0.7);
+        }
+    
+
+.statusColorDes {
+     width: 130px!important;
+}
+
+.eWvBFy, 
+.cyiMKC,
+.jZLrzC,
+.eBRbYA,
+.czyrAX,
+.edOIQa,
+.lkgpiC,
+.jOyjTk,
+.hTuebh,
+.fledzK{
+background-color: #FFFFFF!important;
+border-color: #FFFFFF!important;
+}
+
+.eWvBFy > div > span,
+.cyiMKC span,
+.jZLrzC span,
+.eBRbYA span,
+.czyrAX span,
+.edOIQa span,
+.lkgpiC span,
+.jOyjTk span,
+.hTuebh span,
+.fledzK span{
+color: #000000!important
+}
+
+.eWvBFy > div > span:last-child, 
+.cyiMKC span:last-child,
+.jZLrzC span:last-child,
+.eBRbYA span:last-child,
+.czyrAX span:last-child,
+.edOIQa span:last-child,
+.lkgpiC span:last-child,
+.jOyjTk span:last-child,
+.hTuebh span:last-child,
+.fledzK span:last-child {
+color: #293347!important;
+font-weight: 700!important;
+}
+
+
+        window.popupsExist = true;
+    
+            window.popupTriggeringRules = [{"triggeringUrlRule":"doesNotContains","triggeringUrlValue":"ttt","impressionsMaxNumber":1,"saveCounter":1,"triggeringTime":"1","enableTriggeringRule":"0","alias":"login-issues","id":5},{"triggeringUrlRule":"isNot","triggeringUrlValue":"ggg","impressionsMaxNumber":1,"saveCounter":1,"triggeringTime":"1","enableTriggeringRule":"0","alias":"as-monaco-vs-olympique-de-marseille","id":6}];
+        
+            var anchorMapping="[]";
+        var page={"margin":1.85,"published":1,"bodyBackgroundColor":"rgb(2, 11, 35)","id":132,"title":"Calendrier","alias":"calendrier","component":null,"type":"pageSportsCalendar","target":0,"homepage":0,"isHeading":0,"isHidden":0,"externalUrl":"","navigationId":1,"parentPageId":null,"ordering":22,"seoParams":{"image":"","state":0,"robots":"index, follow","pageTitle":"Retrouvez le calendrier et les r\u00e9sultats de tous les sports | VBET","description":"Suivez tous le sport! Retrouvez le calendrier et les r\u00e9sultats de l'ensemble des comp\u00e9titions et de toutes les \u00e9quipes sur VBET France.","includedSitemap":"1"},"createdAt":"2022-03-09T13:21:08.000000Z","updatedAt":"2023-01-27T13:05:56.000000Z","deletedAt":null,"seo":{"image":"","state":0,"robots":"index, follow","pageTitle":"Retrouvez le calendrier et les r\u00e9sultats de tous les sports | VBET","description":"Suivez tous le sport! Retrouvez le calendrier et les r\u00e9sultats de l'ensemble des comp\u00e9titions et de toutes les \u00e9quipes sur VBET France.","includedSitemap":"1"},"status":200,"parent":null};
+        var currentLanguageObject={"enforceUnicodeAliases":0,"unicodeCharactersReplacement":"\u00c0|A, \u00c1|A, \u00c2|A, \u00c3|A, \u00c4|A, \u00c5|A, \u00e0|a, \u00e1|a, \u00e2|a, \u00e3|a, \u00e4|a, \u00e5|a, \u0100|A, \u0101|a, \u0102|A, \u0103|a, \u0104|A, \u0105|a, \u00c7|C, \u00e7|c, \u0106|C, \u0107|c, \u0108|C, \u0109|c, \u010a|C, \u010b|c, \u010c|C, \u010d|c, \u00d0|D, \u00f0|d, \u010e|D, \u010f|d, \u0110|D, \u0111|d, \u00c8|E, \u00c9|E, \u00ca|E, \u00cb|E, \u00e8|e, \u00e9|e, \u00ea|e, \u00eb|e, \u0112|E, \u0113|e, \u0114|E, \u0115|e, \u0116|E, \u0117|e, \u0118|E, \u0119|e, \u011a|E, \u011b|e, \u011c|G, \u011d|g, \u011e|G, \u011f|g, \u0120|G, \u0121|g, \u0122|G, \u0123|g, \u0124|H, \u0125|h, \u0126|H, \u0127|h, \u00cc|I, \u00cd|I, \u00ce|I, \u00cf|I, \u00ec|i, \u00ed|i, \u00ee|i, \u00ef|i, \u0128|I, \u0129|i, \u012a|I, \u012b|i, \u012c|I, \u012d|i, \u012e|I, \u012f|i, \u0130|I, \u0131|i, \u0134|J, \u0135|j, \u0136|K, \u0137|k, \u0138|k, \u0139|L, \u013a|l, \u013b|L, \u013c|l, \u013d|L, \u013e|l, \u013f|L, \u0140|l, \u0141|L, \u0142|l, \u00d1|N, \u00f1|n, \u0143|N, \u0144|n, \u0145|N, \u0146|n, \u0147|N, \u0148|n, \u0149|n, \u014a|N, \u014b|n, \u00d2|O, \u00d3|O, \u00d4|O, \u00d5|O, \u00d6|O, \u00d8|O, \u00f2|o, \u00f3|o, \u00f4|o, \u00f5|o, \u00f6|o, \u00f8|o, \u014c|O, \u014d|o, \u014e|O, \u014f|o, \u0150|O, \u0151|o, \u0154|R, \u0155|r, \u0156|R, \u0157|r, \u0158|R, \u0159|r, \u015a|S, \u015b|s, \u015c|S, \u015d|s, \u015e|S, \u015f|s, \u0160|S, \u0161|s, \u017f|s, \u0162|T, \u0163|t, \u0164|T, \u0165|t, \u0166|T, \u0167|t, \u00d9|U, \u00da|U, \u00db|U, \u00dc|U, \u00f9|u, \u00fa|u, \u00fb|u, \u00fc|u, \u0168|U, \u0169|u, \u016a|U, \u016b|u, \u016c|U, \u016d|u, \u016e|U, \u016f|u, \u0170|U, \u0171|u, \u0172|U, \u0173|u, \u0174|W, \u0175|w, \u00dd|Y, \u00fd|y, \u00ff|y, \u0176|Y, \u0177|y, \u0178|Y, \u0179|Z, \u017a|z, \u017b|Z, \u017c|z, \u017d|Z, \u017e|z, \u03b1|a, \u03b2|b, \u03b3|g, \u03b4|d, \u03b5|e, \u03b6|z, \u03b7|h, \u03b8|th, \u03b9|i, \u03ba|k, \u03bb|l, \u03bc|m, \u03bd|n, \u03be|x, \u03bf|o, \u03c0|p, \u03c1|r, \u03c3|s, \u03c4|t, \u03c5|y, \u03c6|f, \u03c7|ch, \u03c8|ps, \u03c9|w, \u0391|A, \u0392|B, \u0393|G, \u0394|D, \u0395|E, \u0396|Z, \u0397|H, \u0398|Th, \u0399|I, \u039a|K, \u039b|L, \u039c|M, \u039e|X, \u039f|O, \u03a0|P, \u03a1|R, \u03a3|S, \u03a4|T, \u03a5|Y, \u03a6|F, \u03a7|Ch, \u03a8|Ps, \u03a9|W, \u03ac|a, \u03ad|e, \u03ae|h, \u03af|i, \u03cc|o, \u03cd|y, \u03ce|w, \u0386|A, \u0388|E, \u0389|H, \u038a|I, \u038c|O, \u038e|Y, \u038f|W, \u03ca|i, \u0390|i, \u03cb|y, \u03c2|s, \u0410|A, \u04d0|A, \u04d2|A, \u04d8|E, \u04da|E, \u04d4|E, \u0411|B, \u0412|V, \u0413|G, \u0490|G, \u0403|G, \u0492|G, \u04f6|G, y|Y, \u0414|D, \u0415|E, \u0400|E, \u0401|YO, \u04d6|E, \u04bc|E, \u04be|E, \u0404|YE, \u0416|ZH, \u04c1|DZH, \u0496|ZH, \u04dc|DZH, \u0417|Z, \u0498|Z, \u04de|DZ, \u04e0|DZ, \u0405|DZ, \u0418|I, \u040d|I, \u04e4|I, \u04e2|I, \u0406|I, \u0407|JI, \u04c0|I, \u0419|Y, \u048a|Y, \u0408|J, \u041a|K, \u049a|Q, \u049e|Q, \u04a0|K, \u04c3|Q, \u049c|K, \u041b|L, \u04c5|L, \u0409|L, \u041c|M, \u04cd|M, \u041d|N, \u04c9|N, \u04a2|N, \u04c7|N, \u04a4|N, \u040a|N, \u041e|O, \u04e6|O, \u04e8|O, \u04ea|O, \u04a8|O, \u041f|P, \u04a6|PF, \u0420|P, \u048e|P, \u0421|S, \u04aa|S, \u0422|T, \u04ac|TH, \u040b|T, \u040c|K, \u0423|U, \u040e|U, \u04f2|U, \u04f0|U, \u04ee|U, \u04ae|U, \u04b0|U, \u0424|F, \u0425|H, \u04b2|H, \u04ba|H, \u0426|TS, \u04b4|TS, \u0427|CH, \u04f4|CH, \u04b6|CH, \u04cb|CH, \u04b8|CH, \u040f|DZ, \u0428|SH, \u0429|SHT, \u042a|A, \u042b|Y, \u04f8|Y, \u042c|Y, \u048c|Y, \u042d|E, \u04ec|E, \u042e|YU, \u042f|YA, \u0430|a, \u04d1|a, \u04d3|a, \u04d9|e, \u04db|e, \u04d5|e, \u0431|b, \u0432|v, \u0433|g, \u0491|g, \u0453|g, \u0493|g, \u04f7|g, y|y, \u0434|d, \u0435|e, \u0450|e, \u0451|yo, \u04d7|e, \u04bd|e, \u04bf|e, \u0454|ye, \u0436|zh, \u04c2|dzh, \u0497|zh, \u04dd|dzh, \u0437|z, \u0499|z, \u04df|dz, \u04e1|dz, \u0455|dz, \u0438|i, \u045d|i, \u04e5|i, \u04e3|i, \u0456|i, \u0457|ji, \u04c0|i, \u0439|y, \u048b|y, \u0458|j, \u043a|k, \u049b|q, \u049f|q, \u04a1|k, \u04c4|q, \u049d|k, \u043b|l, \u04c6|l, \u0459|l, \u043c|m, \u04ce|m, \u043d|n, \u04ca|n, \u04a3|n, \u04c8|n, \u04a5|n, \u045a|n, \u043e|o, \u04e7|o, \u04e9|o, \u04eb|o, \u04a9|o, \u043f|p, \u04a7|pf, \u0440|p, \u048f|p, \u0441|s, \u04ab|s, \u0442|t, \u04ad|th, \u045b|t, \u045c|k, \u0443|u, \u045e|u, \u04f3|u, \u04f1|u, \u04ef|u, \u04af|u, \u04b1|u, \u0444|f, \u0445|h, \u04b3|h, \u04bb|h, \u0446|ts, \u04b5|ts, \u0447|ch, \u04f5|ch, \u04b7|ch, \u04cc|ch, \u04b9|ch, \u045f|dz, \u0448|sh, \u0449|sht, \u044a|a, \u044b|y, \u04f9|y, \u044c|y, \u048d|y, \u044d|e, \u04ed|e, \u044e|yu, \u044f|ya","id":6,"ordering":22,"title":"French","language":"fr","prefix":"fr","locale":"fr","region":"Worldwide","flag":"https:\/\/static.springbuilder.site\/assets\/images\/flags64\/fr.svg?v=1676026768","default":1,"published":1,"createdAt":"2022-03-07T07:14:00.000000Z","updatedAt":"2022-03-07T07:19:00.000000Z","deletedAt":null,"flagChanged":false,"homeUrl":null,"shortLocale":"fr","url":""};
+        var isTablet=0;
+        var isMobile=0;
+        var websiteElementsDisabled=1;
+        var printElementsEnabled=0;
+        var siteArchiverEnabled=0;
+        var signOutFromAll=false;
+        var croppedUrlPrefix="https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/images";
+        var userFilesUrl="https:\/\/static.springbuilder.site\/fs\/userFiles-v2\/france-18746848\/";
+        var accountsUrl="https:\/\/accounts.springbuilder.site";
+        var accountsIframeUrl="https:\/\/accounts.springbuilder.site";
+        var currency=null;
+        var helpUrl="https:\/\/help.betconstruct.com";
+        var websiteUrl="https:\/\/www.betconstruct.com\/springbuilder";
+        var publicAddonsAssetsUrl="\/frontend-public\/";
+        var publicUser=null;
+        var staticUrl="https:\/\/static.springbuilder.site";
+        var storageUrl="https:\/\/static.springbuilder.site\/fs";
+        var hasEcommerce=false;
+        var hasPayByReceipt=false;
+        var translations={"validation.requiredField":"Ce champ est obligatoire","validation.invalidEmail":"Cette adresse e-mail n'est pas valide","validation.characterRequired":"Le nombre minimum de caract\u00e8res est de","validation.characterAllowed":"Le nombre maximum de caract\u00e8res est de","validation.wordsRequired":"Le nombre minimum de mots est de","validation.wordsAllowed":"Le nombre maximum de mots est de","validation.invalidUrl":"Cette URL n'est pas valide","validation.passwordCompare":"Le mot de passe et sa v\u00e9rification ne correspondent pas","validation.promoCodeCompare":"Ce code coupon n'est pas valide ","validation.invalidNumber":"Ce num\u00e9ro n'est pas valide","validation.greaterThanNumber":"La valeur doit \u00eatre sup\u00e9rieure \u00e0","validation.lowerThanNumber":"La valeur doit \u00eatre inf\u00e9rieure \u00e0","validation.alias":"L'alias peut contenir uniquement des lettres, des chiffres et des tirets","validation.fileIsBig":"Le fichier que vous chargez est trop volumineux.","validation.invalidFileType":"Le type du fichier que vous chargez n'est pas pris en charge.","validation.invalidDate":"Donn\u00e9es non valides","validation.invalidDateFormat":"La date ne correspond pas au format de date correct : jj\/mm\/aaaa","validation.reCaptchaUnexpectedError":"Erreur de reCAPTCHA invisible.","validation.missingInputSecret":"Cl\u00e9 secr\u00e8te de reCAPTCHA invisible manquante.","validation.invalidInputSecret":"La cl\u00e9 secr\u00e8te de reCAPTCHA invisible n'est pas valide.","validation.missingInputResponse":"Le param\u00e8tre de r\u00e9ponse de reCAPTCHA invisible est manquant.","validation.invalidInputResponse":"Le param\u00e8tre de r\u00e9ponse de reCAPTCHA invisible n'est pas valide.","validation.badRequest":"La demande de reCAPTCHA invisible n'est pas valide.","validation.enableSslMessage":"Impossible d'envoyer ce formulaire, car SSL a \u00e9t\u00e9 activ\u00e9 sur votre domaine, mais pas encore sur votre site web. Vous pouvoir envoyer ce formulaire, vous devez activer SSL dans votre configuration de domaine.","validation.aliasReserved":"Cet alias ne peut pas \u00eatre utilis\u00e9","validation.uniqueAlias":"Il existe d\u00e9j\u00e0 une page avec l'alias {alias}. Veuillez modifier l'alias","validation.invalidMasking":"Le format du num\u00e9ro de t\u00e9l\u00e9phone n'est pas valide."};
+        
+    var styleSheetUrls = [];
+    var _token = '';
+    var editUrl = 'https://www.vbet.fr';
+    var baseUrl = 'https://www.vbet.fr';
+    var apiPrefix = 'api';
+    var publicApiPrefix = 'papi';
+    var publicRestPrefix = 'prest';
+    var accountPopupButtons = '1';
+    var logoutFromAllDevices = '';
+    var pageId = '132';
+    var siteInfo = {
+        domain: 'www.vbet.fr'
+    };
+    var languageSwitcherQueryParams = '';
+    var googleMapKey = 'AIzaSyCOt5KmGHnyjT3QwpXk9z0QTkT06FpjWHY';
+    var previewMode = 0;
+    <!-- lazy load css -->
+    var ll = function (styleSheetUrls) {
+        styleSheetUrls.forEach(function (el) {
+            var l = document.createElement('link');
+            l.rel = 'stylesheet';
+            l.href = el;
+            var h = document.getElementsByTagName('head')[0];
+            h.appendChild(l);
+        });
+    };
+
+    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+
+    if (raf) {
+        raf(function () {
+            ll(styleSheetUrls)
+        });
+    } else {
+        window.addEventListener('load', function () {
+            ll(styleSheetUrls)
+        });
+    }
+
+    
+dataLayer.push({
+ 'event': 'Pageview',
+  'title': 'page title',
+  'url': 'window.location.href',
+  'userId': '@@user_id'
+})
+
